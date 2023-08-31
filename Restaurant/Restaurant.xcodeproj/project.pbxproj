@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2458B07A2AA0D7E400F78D19 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B0792AA0D7E400F78D19 /* Onboarding.swift */; };
+		2458B07C2AA0D87500F78D19 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07B2AA0D87500F78D19 /* Home.swift */; };
+		2458B07E2AA0D8F100F78D19 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07D2AA0D8F100F78D19 /* Menu.swift */; };
+		2458B0802AA0D97600F78D19 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07F2AA0D97600F78D19 /* UserProfile.swift */; };
 		249929FB2AA0D21200AC4FCA /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */; };
 		249929FD2AA0D21200AC4FCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249929FC2AA0D21200AC4FCA /* ContentView.swift */; };
 		249929FF2AA0D21200AC4FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249929FE2AA0D21200AC4FCA /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2458B0792AA0D7E400F78D19 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		2458B07B2AA0D87500F78D19 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2458B07D2AA0D8F100F78D19 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2458B07F2AA0D97600F78D19 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		249929F72AA0D21200AC4FCA /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
 		249929FC2AA0D21200AC4FCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */,
-				249929FC2AA0D21200AC4FCA /* ContentView.swift */,
+				2458B07B2AA0D87500F78D19 /* Home.swift */,
+				2458B0792AA0D7E400F78D19 /* Onboarding.swift */,
+				2458B07D2AA0D8F100F78D19 /* Menu.swift */,
+				2458B07F2AA0D97600F78D19 /* UserProfile.swift */,
 				249929FE2AA0D21200AC4FCA /* Assets.xcassets */,
 				24992A002AA0D21200AC4FCA /* Preview Content */,
+				249929FC2AA0D21200AC4FCA /* ContentView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2458B07A2AA0D7E400F78D19 /* Onboarding.swift in Sources */,
 				249929FD2AA0D21200AC4FCA /* ContentView.swift in Sources */,
+				2458B0802AA0D97600F78D19 /* UserProfile.swift in Sources */,
+				2458B07C2AA0D87500F78D19 /* Home.swift in Sources */,
 				249929FB2AA0D21200AC4FCA /* RestaurantApp.swift in Sources */,
+				2458B07E2AA0D8F100F78D19 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
