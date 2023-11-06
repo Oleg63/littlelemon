@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2414E6362AF838B9007C2015 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414E6352AF838B9007C2015 /* MenuItemView.swift */; };
+		2414E6392AF84E3E007C2015 /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414E6372AF84E3E007C2015 /* Dish+CoreDataClass.swift */; };
+		2414E63A2AF84E3E007C2015 /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414E6382AF84E3E007C2015 /* Dish+CoreDataProperties.swift */; };
+		2418BF222ACB4452004FA87E /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2418BF202ACB4452004FA87E /* ExampleDatabase.xcdatamodeld */; };
+		244EAF492AB68A9400FD7531 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EAF482AB68A9400FD7531 /* FetchedObjects.swift */; };
+		244EAF4B2AB68AB700FD7531 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EAF4A2AB68AB700FD7531 /* Persistence.swift */; };
+		244EAF4D2AB6964600FD7531 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EAF4C2AB6964600FD7531 /* MenuItem.swift */; };
+		244EAF4F2AB6970500FD7531 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244EAF4E2AB6970500FD7531 /* MenuList.swift */; };
 		2458B07A2AA0D7E400F78D19 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B0792AA0D7E400F78D19 /* Onboarding.swift */; };
 		2458B07C2AA0D87500F78D19 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07B2AA0D87500F78D19 /* Home.swift */; };
 		2458B07E2AA0D8F100F78D19 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07D2AA0D8F100F78D19 /* Menu.swift */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2414E6352AF838B9007C2015 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		2414E6372AF84E3E007C2015 /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2414E6382AF84E3E007C2015 /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2418BF212ACB4452004FA87E /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		244EAF482AB68A9400FD7531 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		244EAF4A2AB68AB700FD7531 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		244EAF4C2AB6964600FD7531 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		244EAF4E2AB6970500FD7531 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		2458B0792AA0D7E400F78D19 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		2458B07B2AA0D87500F78D19 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2458B07D2AA0D8F100F78D19 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -43,6 +59,8 @@
 		249929EE2AA0D21200AC4FCA = {
 			isa = PBXGroup;
 			children = (
+				2414E6372AF84E3E007C2015 /* Dish+CoreDataClass.swift */,
+				2414E6382AF84E3E007C2015 /* Dish+CoreDataProperties.swift */,
 				249929F92AA0D21200AC4FCA /* Restaurant */,
 				249929F82AA0D21200AC4FCA /* Products */,
 			);
@@ -62,11 +80,17 @@
 				249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */,
 				2458B07B2AA0D87500F78D19 /* Home.swift */,
 				2458B0792AA0D7E400F78D19 /* Onboarding.swift */,
+				244EAF4C2AB6964600FD7531 /* MenuItem.swift */,
+				244EAF4E2AB6970500FD7531 /* MenuList.swift */,
 				2458B07D2AA0D8F100F78D19 /* Menu.swift */,
 				2458B07F2AA0D97600F78D19 /* UserProfile.swift */,
+				244EAF482AB68A9400FD7531 /* FetchedObjects.swift */,
+				244EAF4A2AB68AB700FD7531 /* Persistence.swift */,
 				249929FE2AA0D21200AC4FCA /* Assets.xcassets */,
 				24992A002AA0D21200AC4FCA /* Preview Content */,
 				249929FC2AA0D21200AC4FCA /* ContentView.swift */,
+				2418BF202ACB4452004FA87E /* ExampleDatabase.xcdatamodeld */,
+				2414E6352AF838B9007C2015 /* MenuItemView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -149,11 +173,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2418BF222ACB4452004FA87E /* ExampleDatabase.xcdatamodeld in Sources */,
 				2458B07A2AA0D7E400F78D19 /* Onboarding.swift in Sources */,
+				244EAF4B2AB68AB700FD7531 /* Persistence.swift in Sources */,
+				2414E63A2AF84E3E007C2015 /* Dish+CoreDataProperties.swift in Sources */,
+				2414E6392AF84E3E007C2015 /* Dish+CoreDataClass.swift in Sources */,
+				2414E6362AF838B9007C2015 /* MenuItemView.swift in Sources */,
 				249929FD2AA0D21200AC4FCA /* ContentView.swift in Sources */,
 				2458B0802AA0D97600F78D19 /* UserProfile.swift in Sources */,
 				2458B07C2AA0D87500F78D19 /* Home.swift in Sources */,
 				249929FB2AA0D21200AC4FCA /* RestaurantApp.swift in Sources */,
+				244EAF4D2AB6964600FD7531 /* MenuItem.swift in Sources */,
+				244EAF492AB68A9400FD7531 /* FetchedObjects.swift in Sources */,
+				244EAF4F2AB6970500FD7531 /* MenuList.swift in Sources */,
 				2458B07E2AA0D8F100F78D19 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +385,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2418BF202ACB4452004FA87E /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2418BF212ACB4452004FA87E /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = 2418BF212ACB4452004FA87E /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 249929EF2AA0D21200AC4FCA /* Project object */;
 }
