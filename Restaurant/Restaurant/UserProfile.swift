@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct UserProfile: View {
-    @Environment(\.presentationMode) var presentation
+    @Environment(\.presentationMode) var presentation //allow you to reach the navigation logic.
     
-    let firstName: String = UserDefaults.standard.string(forKey: kFirstName) ?? ""
+    let firstName: String = UserDefaults.standard.string(forKey: kFirstName) ?? "" //unwrap optional
     let lastName: String = UserDefaults.standard.string(forKey: kLastName) ?? ""
     let email: String = UserDefaults.standard.string(forKey: kEmail) ?? ""
     
