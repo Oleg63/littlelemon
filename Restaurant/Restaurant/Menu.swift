@@ -12,7 +12,8 @@ import Foundation
 struct Menu: View {
     @Environment(\.managedObjectContext) private var viewContext
     
-    @State var isMenuLoaded = false
+    @State private var isMenuLoaded = false
+    @State private var searchText = ""
     
     var body: some View {
         NavigationView {
@@ -24,8 +25,11 @@ struct Menu: View {
                 //App description, what it does.
                 Text("We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.")
                 
+                //Search
+                TextField("Search menu", text: $searchText)
+                                        .padding(8)
                 //Menu items
-                FetchedObjects() {
+                FetchedObjects(predicate: buildPredicate(), sortDescriptors: buildSortDescriptors()) {
                     (dishes: [Dish]) in
                     List() {
                         ForEach(dishes, id: \.id)
@@ -93,6 +97,19 @@ struct Menu: View {
         task.resume()
     }
     
+    func buildSortDescriptors() -> [NSSortDescriptor] {
+        return [
+            NSSortDescriptor(key: "title", ascending: true, selector: #selector(NSString.localizedStandardCompare))
+        ]
+    }
+    
+    func buildPredicate() -> NSPredicate {
+        if searchText.isEmpty {
+            return NSPredicate(value: true)
+        } else {
+            return NSPredicate(format: "title CONTAINS[cd] %@", searchText)
+        }
+    }
 }
 
 struct Menu_Previews: PreviewProvider {
