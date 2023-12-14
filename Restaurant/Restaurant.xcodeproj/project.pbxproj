@@ -19,10 +19,20 @@
 		2458B07C2AA0D87500F78D19 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07B2AA0D87500F78D19 /* Home.swift */; };
 		2458B07E2AA0D8F100F78D19 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07D2AA0D8F100F78D19 /* Menu.swift */; };
 		2458B0802AA0D97600F78D19 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458B07F2AA0D97600F78D19 /* UserProfile.swift */; };
+		2478472D2B1D086200B25F15 /* FontAndTextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2478472C2B1D086200B25F15 /* FontAndTextStyles.swift */; };
 		249929FB2AA0D21200AC4FCA /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */; };
-		249929FD2AA0D21200AC4FCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249929FC2AA0D21200AC4FCA /* ContentView.swift */; };
 		249929FF2AA0D21200AC4FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249929FE2AA0D21200AC4FCA /* Assets.xcassets */; };
 		24992A022AA0D21200AC4FCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24992A012AA0D21200AC4FCA /* Preview Assets.xcassets */; };
+		24BAE8412B168860001C5DD0 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAE8402B168860001C5DD0 /* Checkbox.swift */; };
+		24C2A5392B0951E0003784EE /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C2A5382B0951E0003784EE /* Karla-Bold.ttf */; };
+		24C2A53B2B095450003784EE /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C2A53A2B095450003784EE /* Karla-ExtraBold.ttf */; };
+		24D0301D2B0512B7005D64F4 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24D0301C2B0512B7005D64F4 /* MarkaziText-Medium.ttf */; };
+		24D0301F2B0512FC005D64F4 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24D0301E2B0512FC005D64F4 /* Karla-Regular.ttf */; };
+		24D030222B051355005D64F4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D030212B051355005D64F4 /* Color+Extension.swift */; };
+		24D056DD2B0312A100790A82 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D056DC2B0312A100790A82 /* HeaderView.swift */; };
+		24D056DF2B0314AC00790A82 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D056DE2B0314AC00790A82 /* HeroView.swift */; };
+		24D056E12B03196000790A82 /* MenuBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D056E02B03196000790A82 /* MenuBreakdown.swift */; };
+		24D056E32B031A9F00790A82 /* MenuCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D056E22B031A9F00790A82 /* MenuCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,11 +48,22 @@
 		2458B07B2AA0D87500F78D19 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2458B07D2AA0D8F100F78D19 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		2458B07F2AA0D97600F78D19 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		2478472C2B1D086200B25F15 /* FontAndTextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAndTextStyles.swift; sourceTree = "<group>"; };
 		249929F72AA0D21200AC4FCA /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
-		249929FC2AA0D21200AC4FCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		249929FE2AA0D21200AC4FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24992A012AA0D21200AC4FCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24BAE8402B168860001C5DD0 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		24C2A5382B0951E0003784EE /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		24C2A53A2B095450003784EE /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		24D0301C2B0512B7005D64F4 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		24D0301E2B0512FC005D64F4 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		24D030212B051355005D64F4 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		24D030272B08091E005D64F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		24D056DC2B0312A100790A82 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		24D056DE2B0314AC00790A82 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		24D056E02B03196000790A82 /* MenuBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBreakdown.swift; sourceTree = "<group>"; };
+		24D056E22B031A9F00790A82 /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,20 +98,17 @@
 		249929F92AA0D21200AC4FCA /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				24D030272B08091E005D64F4 /* Info.plist */,
+				24D030252B06A93E005D64F4 /* Model */,
+				24D030232B06A8AC005D64F4 /* CoreData */,
+				24D030202B05132E005D64F4 /* Extensions */,
+				24D0301B2B05125C005D64F4 /* Fonts */,
+				24D030242B06A8F1005D64F4 /* Views */,
+				24D030262B06A968005D64F4 /* SubViews */,
 				249929FA2AA0D21200AC4FCA /* RestaurantApp.swift */,
-				2458B07B2AA0D87500F78D19 /* Home.swift */,
-				2458B0792AA0D7E400F78D19 /* Onboarding.swift */,
-				244EAF4C2AB6964600FD7531 /* MenuItem.swift */,
-				244EAF4E2AB6970500FD7531 /* MenuList.swift */,
-				2458B07D2AA0D8F100F78D19 /* Menu.swift */,
-				2458B07F2AA0D97600F78D19 /* UserProfile.swift */,
-				244EAF482AB68A9400FD7531 /* FetchedObjects.swift */,
-				244EAF4A2AB68AB700FD7531 /* Persistence.swift */,
 				249929FE2AA0D21200AC4FCA /* Assets.xcassets */,
+				24BAE83F2B168836001C5DD0 /* Components */,
 				24992A002AA0D21200AC4FCA /* Preview Content */,
-				249929FC2AA0D21200AC4FCA /* ContentView.swift */,
-				2418BF202ACB4452004FA87E /* ExampleDatabase.xcdatamodeld */,
-				2414E6352AF838B9007C2015 /* MenuItemView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -101,6 +119,76 @@
 				24992A012AA0D21200AC4FCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24BAE83F2B168836001C5DD0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				24BAE8402B168860001C5DD0 /* Checkbox.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		24D0301B2B05125C005D64F4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				24D0301C2B0512B7005D64F4 /* MarkaziText-Medium.ttf */,
+				24C2A5382B0951E0003784EE /* Karla-Bold.ttf */,
+				24C2A53A2B095450003784EE /* Karla-ExtraBold.ttf */,
+				24D0301E2B0512FC005D64F4 /* Karla-Regular.ttf */,
+				2478472C2B1D086200B25F15 /* FontAndTextStyles.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		24D030202B05132E005D64F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24D030212B051355005D64F4 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		24D030232B06A8AC005D64F4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2418BF202ACB4452004FA87E /* ExampleDatabase.xcdatamodeld */,
+				244EAF4A2AB68AB700FD7531 /* Persistence.swift */,
+				244EAF482AB68A9400FD7531 /* FetchedObjects.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		24D030242B06A8F1005D64F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2458B0792AA0D7E400F78D19 /* Onboarding.swift */,
+				2458B07B2AA0D87500F78D19 /* Home.swift */,
+				2458B07D2AA0D8F100F78D19 /* Menu.swift */,
+				2458B07F2AA0D97600F78D19 /* UserProfile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24D030252B06A93E005D64F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				244EAF4C2AB6964600FD7531 /* MenuItem.swift */,
+				244EAF4E2AB6970500FD7531 /* MenuList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24D030262B06A968005D64F4 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				24D056DC2B0312A100790A82 /* HeaderView.swift */,
+				2414E6352AF838B9007C2015 /* MenuItemView.swift */,
+				24D056DE2B0314AC00790A82 /* HeroView.swift */,
+				24D056E02B03196000790A82 /* MenuBreakdown.swift */,
+				24D056E22B031A9F00790A82 /* MenuCategory.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D0301D2B0512B7005D64F4 /* MarkaziText-Medium.ttf in Resources */,
+				24C2A5392B0951E0003784EE /* Karla-Bold.ttf in Resources */,
+				24C2A53B2B095450003784EE /* Karla-ExtraBold.ttf in Resources */,
 				24992A022AA0D21200AC4FCA /* Preview Assets.xcassets in Resources */,
 				249929FF2AA0D21200AC4FCA /* Assets.xcassets in Resources */,
+				24D0301F2B0512FC005D64F4 /* Karla-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,16 +267,22 @@
 			files = (
 				2418BF222ACB4452004FA87E /* ExampleDatabase.xcdatamodeld in Sources */,
 				2458B07A2AA0D7E400F78D19 /* Onboarding.swift in Sources */,
+				24D056DF2B0314AC00790A82 /* HeroView.swift in Sources */,
 				244EAF4B2AB68AB700FD7531 /* Persistence.swift in Sources */,
+				2478472D2B1D086200B25F15 /* FontAndTextStyles.swift in Sources */,
+				24D056E32B031A9F00790A82 /* MenuCategory.swift in Sources */,
 				2414E63A2AF84E3E007C2015 /* Dish+CoreDataProperties.swift in Sources */,
 				2414E6392AF84E3E007C2015 /* Dish+CoreDataClass.swift in Sources */,
 				2414E6362AF838B9007C2015 /* MenuItemView.swift in Sources */,
-				249929FD2AA0D21200AC4FCA /* ContentView.swift in Sources */,
+				24BAE8412B168860001C5DD0 /* Checkbox.swift in Sources */,
 				2458B0802AA0D97600F78D19 /* UserProfile.swift in Sources */,
 				2458B07C2AA0D87500F78D19 /* Home.swift in Sources */,
 				249929FB2AA0D21200AC4FCA /* RestaurantApp.swift in Sources */,
+				24D030222B051355005D64F4 /* Color+Extension.swift in Sources */,
+				24D056DD2B0312A100790A82 /* HeaderView.swift in Sources */,
 				244EAF4D2AB6964600FD7531 /* MenuItem.swift in Sources */,
 				244EAF492AB68A9400FD7531 /* FetchedObjects.swift in Sources */,
+				24D056E12B03196000790A82 /* MenuBreakdown.swift in Sources */,
 				244EAF4F2AB6970500FD7531 /* MenuList.swift in Sources */,
 				2458B07E2AA0D8F100F78D19 /* Menu.swift in Sources */,
 			);
@@ -319,6 +417,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Restaurant/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Restaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +446,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Restaurant/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Restaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

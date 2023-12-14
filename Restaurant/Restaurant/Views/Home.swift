@@ -12,17 +12,17 @@ struct Home: View {
     let persistence = PersistenceController.shared
     
     var body: some View {
-                
+
         TabView {
             Menu()
                 .environment(\.managedObjectContext, persistence.container.viewContext)
-                .tabItem({
+                .tabItem{
                     Label("Menu", systemImage: "list.dash")
-                })
+                }
             UserProfile()
-                .tabItem({
+                .tabItem{
                     Label("Profile", systemImage: "square.and.pencil")
-                })
+                }
         }
         .navigationBarBackButtonHidden(true) //hide "back" button
         
