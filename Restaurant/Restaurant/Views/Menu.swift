@@ -14,20 +14,15 @@ struct Menu: View {
     
     @State private var isMenuLoaded = false
     @State private var searchText = ""
+    @State private var showedCategory: MenuCategory = .all
     
     var body: some View {
         NavigationView {
-            VStack{
-                //Title
-                Text("Little Lemon")
-                //Restautrant location
-                Text("Chicago")
-                //App description, what it does.
-                Text("We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.")
-                
-                //Search
-                TextField("Search menu", text: $searchText)
-                                        .padding(8)
+            VStack {
+                HeaderView(showAvatar: true)
+                HeroView(searchText: $searchText, showSearch: true)
+                MenuBreakdown(category: $showedCategory)
+                                
                 //Menu items
                 FetchedObjects(predicate: buildPredicate(), sortDescriptors: buildSortDescriptors()) {
                     (dishes: [Dish]) in
@@ -35,23 +30,7 @@ struct Menu: View {
                         ForEach(dishes, id: \.id)
                         {
                             dish in
-                            HStack{
-                                Text("\(dish.title!)")
-                                    .bold()
-                                Spacer()
-                                Text("$\(dish.price!)")
-                                
-                                AsyncImage(url: URL(string: dish.image!)) { image in
-                                    image
-                                        .resizable()
-                                        .frame(width: 50, height: 50)
-                                        
-                                } placeholder: {
-                                    ProgressView()
-                                        .frame(width: 50, height: 50)
-                                }
-                            }
-                            
+                            MenuItemView(dish: dish)
                         }
                     }
                     .listStyle(.plain)
@@ -85,6 +64,8 @@ struct Menu: View {
                         newDish.title = dish.title
                         newDish.image = dish.image
                         newDish.price = dish.price
+                        newDish.details = dish.details
+                        newDish.category = dish.category
                     }
                     try? viewContext.save() //save the data into the database
                 } else {
